@@ -1,5 +1,37 @@
 {
   "current": {
+    "color_primary": "#dd99cc",
+    "color_header_text": "#dd99cc",
+    "color_primary_heading_text": "#4a4a4a",
+    "color_primary_body_text": "#4a4a4a",
+    "color_footer_text": "#4a4a4a",
+    "color_button_text": "#ffffff",
+    "color_header_bg": "#fff",
+    "color_footer_bg": "#ffffff",
+    "color_main_bg": "#ffffff",
+    "color_secondary_bg": "#f7f7f7",
+    "color_product_cards": "#ebebeb",
+    "color_form_elements": "#f1f1f1",
+    "color_cart_flag": "#95cef2",
+    "type_base_size": "75%",
+    "type_header_family": "Google_Raleway_400_sans",
+    "type_bold_titles": true,
+    "type_base_family": "Google_Raleway_400_sans",
+    "show_cart_drawer": true,
+    "show_cart_note": false,
+    "share_image": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_facebook_link": "https:\/\/facebook.com\/betteraloe",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/instagram.com\/betteraloebodycare",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -11,66 +43,56 @@
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_heading_font": "Helvetica Neue",
     "checkout_body_font": "Helvetica Neue",
-    "checkout_accent_color": "#1990C6",
-    "checkout_button_color": "#1990C6",
+    "checkout_accent_color": "#1990c6",
+    "checkout_button_color": "#1990c6",
     "checkout_error_color": "#ff6d6d",
-    "color_primary": "#dfa160",
-    "color_header_text": "#dfa160",
-    "color_primary_heading_text": "#000000",
-    "color_primary_body_text": "#4a4a4a",
-    "color_footer_text": "#ffffff",
-    "color_button_text": "#ffffff",
-    "color_header_bg": "#fff",
-    "color_footer_bg": "#dfa160",
-    "color_main_bg": "#ffffff",
-    "color_secondary_bg": "#f7f7f7",
-    "color_product_cards": "#ebebeb",
-    "color_form_elements": "#f1f1f1",
-    "color_cart_flag": "#b76b50",
-    "type_base_size": "62.5%",
-    "type_header_family": "Google_Open+Sans_400_sans",
-    "type_bold_titles": true,
-    "type_base_family": "Google_Open+Sans_400_sans",
-    "show_cart_drawer": true,
-    "show_cart_note": false,
-    "share_facebook": true,
-    "share_twitter": true,
-    "share_pinterest": true,
-    "social_tumblr_link": "",
-    "social_youtube_link": "",
-    "social_vimeo_link": "",
-    "favicon": "",
     "logo_max_height": "15",
+    "transparent_logo": "",
     "sections": {
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "1486583739899": {
-            "type": "video",
-            "settings": {}
+          "1510940653172": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "alignment": "center center",
+              "title": "How to Boost Both Body & Mind with",
+              "button": "Natural Skincare",
+              "cta_link": "shopify:\/\/products\/organic-aloe-vera-juice"
+            }
           }
         },
         "block_order": [
-          "1486583739899"
+          "1510940653172"
         ],
         "settings": {
-          "cta": "Shop now",
+          "cta": "Power-up",
           "show_overlay": true,
-          "overlay_color": "#ffffff",
-          "overlay_text": "#000000",
-          "overlay_opacity": "0.5"
+          "overlay_color": "#dd99cc",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "1"
         }
       },
       "header": {
         "type": "header",
         "settings": {
           "icon": "bag",
-          "logo_max_height": "18",
+          "logo": "",
+          "logo_max_height": "40",
           "enable_transparent": true,
-          "transparent_text_color": "#dfa160",
+          "transparent_logo": "",
+          "transparent_text_color": "#ffffff",
           "primary_navigation": "main-menu",
           "secondary_navigation": "footer",
-          "show_social_icons": true
+          "show_social_icons": true,
+          "show_announcement": false,
+          "home_page_only": true,
+          "announcement_text": "Announce something here",
+          "announcement_link": "",
+          "announcement_icon": "checkmark",
+          "announcement_color_bg": "#7796a8",
+          "announcement_color_text": "#fff"
         }
       },
       "footer": {
@@ -89,141 +111,10 @@
         "settings": {
           "show_social_icons": true,
           "show_payment_icons": true,
-          "enable_parallax": true,
-          "show_newsletter": true
-        }
-      },
-      "feature-row": {
-        "type": "feature-row",
-        "settings": {
-          "size": "large",
-          "background_color": "#fafafa",
-          "image_crop": "square",
-          "alignment": "center center",
-          "use_second_button": false,
-          "button_label": "",
-          "button_link": "",
-          "desktop_layout": "left",
-          "mobile_layout": "top"
-        }
-      },
-      "gallery": {
-        "type": "gallery",
-        "blocks": {
-          "1486502632685-0": {
-            "type": "image",
-            "settings": {
-              "alignment": "center center",
-              "icon": "checkmark",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1486502632685-0"
-        ],
-        "settings": {
-          "section_height": "medium",
-          "show_overlay": true,
-          "overlay_color": "#000000",
-          "overlay_text": "#ffffff",
-          "overlay_opacity": "0.5"
-        }
-      },
-      "featured-slider": {
-        "type": "featured-slider",
-        "blocks": {
-          "1486503036275-0": {
-            "type": "slide",
-            "settings": {
-              "background_color": "#ebebeb",
-              "show_image": true,
-              "slide_button_text": "",
-              "slide_button_url": ""
-            }
-          },
-          "1486503036275-2": {
-            "type": "slide",
-            "settings": {
-              "background_color": "#ebebeb",
-              "show_image": true,
-              "slide_button_text": "",
-              "slide_button_url": ""
-            }
-          },
-          "1486503036275-1": {
-            "type": "slide",
-            "settings": {
-              "background_color": "#ebebeb",
-              "show_image": true,
-              "slide_button_text": "",
-              "slide_button_url": ""
-            }
-          },
-          "1487016418120": {
-            "type": "slide",
-            "settings": {
-              "background_color": "#ebebeb",
-              "show_image": false,
-              "slide_image": "",
-              "slide_title": ""
-            }
-          }
-        },
-        "block_order": [
-          "1486503036275-0",
-          "1486503036275-2",
-          "1486503036275-1",
-          "1487016418120"
-        ],
-        "settings": {
-          "use_second_button": true,
-          "text_color": "#000000",
-          "cover_title_desktop_position": "center",
-          "show_overlay": true,
-          "overlay_color": "rgba(0,0,0,0)",
-          "overlay_text": "#000000",
-          "overlay_opacity": "0.5"
-        }
-      },
-      "1486583009346": {
-        "type": "feature-row",
-        "settings": {
-          "size": "large",
-          "background_color": "#ffffff",
-          "image_crop": "none",
-          "alignment": "top left",
-          "use_second_button": false,
-          "button_label": "About us",
-          "desktop_layout": "right",
-          "mobile_layout": "bottom"
-        }
-      },
-      "1486584613697": {
-        "type": "hero",
-        "settings": {
-          "hero_size": "large",
-          "alignment": "center center",
-          "text": "",
-          "text_size": "medium",
-          "use_second_button": false,
-          "button_label": "",
-          "button_link": "",
-          "show_overlay": true,
-          "overlay_color": "#ffffff",
-          "overlay_text": "#3a3a3a",
-          "overlay_opacity": "0"
-        }
-      },
-      "1486584983006": {
-        "type": "highlight",
-        "settings": {
-          "border_color": "#dfa160",
-          "content_alignment": "middle",
-          "image_position": "back",
-          "use_second_button": false,
-          "button_text": "",
-          "button_link": ""
+          "enable_parallax": false,
+          "show_newsletter": false,
+          "newsletter_heading": "Sign up for updates",
+          "newsletter_button": "Ok"
         }
       },
       "collection-template": {
@@ -252,6 +143,8 @@
       "blog-template": {
         "type": "blog-template",
         "settings": {
+          "articles": "2",
+          "rows": "4",
           "blog_show_date": true
         }
       },
@@ -264,60 +157,151 @@
           "show_share_buttons": true
         }
       },
-      "1492008725684": {
+      "1511032550493": {
         "type": "hero",
         "settings": {
-          "hero_size": "x-large",
-          "alignment": "top center",
+          "hero_size": "small",
+          "image": "",
+          "alignment": "center center",
+          "title": "Hi 👻, we are Betteraloe",
+          "text": "<p>We make the best natural body &amp; skincare products. All from hand-harvested organic-certified Aloe Vera of the beautiful Balearic Islands.<\/p>",
+          "text_size": "medium",
+          "use_second_button": false,
+          "button_label": "",
+          "button_link": "",
+          "show_overlay": false,
+          "overlay_color": "#000000",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "0.5"
+        }
+      },
+      "1511032637913": {
+        "type": "hero",
+        "settings": {
+          "hero_size": "small",
+          "image": "",
+          "alignment": "center center",
           "title": "",
           "text": "",
           "text_size": "medium",
           "use_second_button": false,
-          "button_label": "Read our blog",
+          "button_label": "All Products",
+          "button_link": "shopify:\/\/collections\/all-products",
           "show_overlay": false,
           "overlay_color": "#000000",
-          "overlay_text": "#3a3a3a",
+          "overlay_text": "#ffffff",
           "overlay_opacity": "0.5"
         }
       },
-      "1492807242211": {
-        "type": "custom-content",
+      "1511032752763": {
+        "type": "hero",
+        "settings": {
+          "hero_size": "small",
+          "image": "",
+          "alignment": "center center",
+          "title": "Aloe ≠ Aloe",
+          "text": "<p>All Aloe is not the same. Here's how we do things differently.<\/p>\n<p><strong>1<\/strong>. Not from concentrate<br><strong>2<\/strong>.&nbsp;Grown naturally on the Balearic Islands<br><em>(not imported from Texas or Mexico)<\/em><br><strong>3<\/strong>. 100% organic-certified inner leaf<br><strong>4<\/strong>. purified, no latex or aloin<\/p>",
+          "text_size": "medium",
+          "use_second_button": false,
+          "button_label": "See All",
+          "button_link": "",
+          "show_overlay": true,
+          "overlay_color": "#000000",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "1"
+        }
+      },
+      "ba-get-started": {
+        "type": "ba-get-started",
+        "settings": {
+          "hero_size": "small",
+          "image": "",
+          "alignment": "center center",
+          "title": "",
+          "text": "<p>JOIN THE BETTERALOE EXPERIENCE<\/p>\n<p><em>&amp; discover the powers of Aloe Vera for your body &amp; skin.<\/em><\/p>",
+          "text_size": "large",
+          "use_second_button": false,
+          "button_label": "Get started",
+          "button_link": "",
+          "show_overlay": false,
+          "overlay_color": "#000000",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "0.5"
+        }
+      },
+      "1511042546715": {
+        "type": "ba-product-gallery",
         "blocks": {
-          "1492807242211-0": {
-            "type": "text",
+          "1511042546715-0": {
+            "type": "image",
             "settings": {
-              "heading_text": "",
-              "heading_color": "#3a3a3a",
-              "heading_style": "h3",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "center"
+              "image": "",
+              "alignment": "center center",
+              "icon": "leaf",
+              "cta_label": "Organic Aloe Vera Juice",
+              "link": "shopify:\/\/products\/organic-aloe-vera-juice"
+            }
+          },
+          "1511042546715-1": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "alignment": "center center",
+              "icon": "leaf",
+              "cta_label": "Organic Aloe Vera Gel",
+              "link": "shopify:\/\/products\/organic-aloe-vera-gel-99"
+            }
+          },
+          "1511042546715-2": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "alignment": "center center",
+              "icon": "leaf",
+              "cta_label": "Organic Aloe Vera Shampoo",
+              "link": "shopify:\/\/collections\/all"
             }
           }
         },
         "block_order": [
-          "1492807242211-0"
+          "1511042546715-0",
+          "1511042546715-1",
+          "1511042546715-2"
         ],
         "settings": {
-          "heading_text": "",
-          "heading_color": "#3a3a3a",
-          "background_color": "",
-          "top_margin": true,
-          "bottom_margin": false
+          "section_height": "small",
+          "show_overlay": true,
+          "overlay_color": "#000000",
+          "overlay_text": "#4a4a4a",
+          "overlay_opacity": "0"
+        }
+      },
+      "1511042833955": {
+        "type": "ba-klaviyo-form",
+        "settings": {
+          "hero_size": "small",
+          "image": "",
+          "alignment": "center center",
+          "title": "The Club",
+          "text": "<p>Join many&nbsp;others &amp; receive our best body &amp; skincare tips and breakthroughs directly to your inbox!<br>+ get 15% off your first order!&nbsp;😉<\/p>",
+          "text_size": "medium",
+          "use_second_button": false,
+          "button_label": "",
+          "button_link": "",
+          "show_overlay": true,
+          "overlay_color": "#dd99cc",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "1"
         }
       }
     },
     "content_for_index": [
-      "feature-row",
-      "1486584613697",
-      "1486583009346",
-      "gallery",
-      "1492807242211",
-      "1486584983006",
-      "featured-slider",
-      "1492008725684"
-    ],
-    "transparent_logo": ""
+      "1511032550493",
+      "1511042546715",
+      "1511032637913",
+      "1511032752763",
+      "1511042833955"
+    ]
   },
   "presets": {
     "Warm": {
@@ -397,7 +381,8 @@
         },
         "1476381402840": {
           "type": "video",
-          "settings": {}
+          "settings": {
+          }
         },
         "1476381658595": {
           "type": "hero",
@@ -447,11 +432,13 @@
           "blocks": {
             "1478027260401-0": {
               "type": "quote",
-              "settings": {}
+              "settings": {
+              }
             },
             "1478027389453": {
               "type": "quote",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -485,19 +472,23 @@
           "blocks": {
             "1486649146314": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "1486649185448": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "1486649208703": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "1486649267624": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -519,11 +510,13 @@
           "blocks": {
             "1486649413883-0": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "1486649413883-1": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -700,7 +693,8 @@
           "blocks": {
             "1486583739899": {
               "type": "video",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -1020,7 +1014,8 @@
           "blocks": {
             "1486663529263": {
               "type": "video",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [

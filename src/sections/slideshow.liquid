@@ -58,6 +58,7 @@
                 {% if block.settings.title != blank %}
                   <h2 class="slideshow__heading h1">
                     {{ block.settings.title | escape }}
+                    {% include 'ba-slideshow-heading-end' %}
                   </h2>
                   {% if section.blocks.size == 1 and block.settings.cta_link != blank %}
                     <a href="{{ block.settings.cta_link }}" class="slideshow__heading-cta btn">

@@ -235,6 +235,11 @@
             "label": "Work Sans",
             "group": "Sans-serif | Google Web Fonts"
           },
+		  {
+            "value": "Google_Raleway_400_sans",
+            "label": "Raleway",
+            "group": "Sans-serif | Google Web Fonts"
+          },
           {
             "value": "'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif",
             "label": "Big Caslon",
@@ -410,6 +415,11 @@
           {
             "value": "Google_Work+Sans_400_sans",
             "label": "Work Sans",
+            "group": "Sans-serif | Google Web Fonts"
+          },
+		  {
+            "value": "Google_Raleway_400_sans",
+            "label": "Raleway",
             "group": "Sans-serif | Google Web Fonts"
           },
           {
