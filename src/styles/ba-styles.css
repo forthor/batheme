@@ -111,6 +111,56 @@ html {
   background-color:#fff;
 }
 
+/* Index ba klaviyo form form */
+.template-index .index-section--ba-klaviyo-form form {
+  margin:15px auto 0;
+  max-width:250px;
+}
+
+/* Index ba klaviyo form input */
+.template-index .index-section--ba-klaviyo-form form input {
+  margin-bottom:0;
+  padding-left:0;
+  padding-right:0;
+  border:none;
+  outline:none;
+  background:transparent;
+  border-bottom:3px solid #fff;
+  color:#fff;
+  text-align:center;
+  font-weight:600;
+}
+
+/* Index ba klaviyo form input placeholder */
+.template-index .index-section--ba-klaviyo-form form input::placeholder {
+  color:#fff!important;
+  opacity:1!important;
+  font-weight:600;
+  text-align:center;
+  transition:color .2s;
+}
+
+/* Index ba klaviyo form input placeholder focus */
+.template-index .index-section--ba-klaviyo-form form input:focus::placeholder {
+  color:rgba(255,255,255,.3)!important;
+}
+
+/* Index ba klaviyo form button */
+.template-index .index-section--ba-klaviyo-form form .btn {
+  margin-top:25px;
+}
+
+/* Index ba klaviyo form messages */
+.template-index .index-section--ba-klaviyo-form form .klaviyo_messages {
+  color:#fff;
+  font-weight:600;
+}
+
+/* Index ba klaviyo form error messages */
+.template-index .index-section--ba-klaviyo-form form .error_message {
+  margin-top:25px;
+}
+
 @media only screen and (min-width: 750px) {
 
 /* INDEX PAGE */
