@@ -1,1 +1,202 @@
 /* GENERAL */
+
+/* menu scrollbar fix */
+html {
+  overflow-y:scroll;
+}
+
+/* buttons */
+.btn:not(.btn--clear) {
+  color:#000;
+  border:1px solid #000;
+  border-radius:15px;
+  font-size:1.4rem;
+  background:#95cef2;
+}
+
+/* buttons hover */
+.btn:not(.btn--clear):hover {
+  opacity:.7;
+}
+
+/* buttons border fix */
+.btn:not(.btn--clear)::after {
+  display:none;
+}
+
+/* header logo */
+#shopify-section-header a.site-header__logo {
+  color:#d9c;
+  font-weight:400;
+}
+
+/* ba get started text */
+#shopify-section-ba-get-started p > em {
+  color:#999;
+  font-weight:400;
+  font-size:1.75rem;
+  font-style:normal;
+}
+
+/* INDEX PAGE */
+
+/* Index header logo */
+.template-index #shopify-section-header a.site-header__logo {
+  color:#fff;
+}
+
+/* Index header sticky logo */
+.template-index #shopify-section-header .site-header--fixed a.site-header__logo {
+  color:#d9c;
+}
+
+/* Index slideshow */
+.template-index .slideshow {
+  border-bottom:35px solid #d9c;
+}
+
+/* Index slideshow background */
+.template-index .slideshow__overlay::before {
+  background-image:url( //cdn.shopify.com/s/files/1/2089/4883/t/5/assets/ba-icon-aloe-dark.svg?5544002055934962046 );
+  background-repeat:round;
+  background-size:4.5rem 4.5rem;
+}
+
+/* Index slideshow heading ending */
+.template-index .slideshow .slideshow__heading span {
+  font-style:italic;
+  font-weight:400;
+}
+
+/* Index we are betteraloe text */
+.template-index #shopify-section-1511032550493 p {
+  font-size:1.75rem;
+  color:#999;
+}
+
+/* Index all products button */
+.template-index #shopify-section-1511032637913 .btn {
+  margin-top:0;
+}
+
+/* Index ba product gallery image */
+.template-index .index-section--ba-product-gallery .image-bar__item {
+  background-size:auto 100%;
+  background-color:#fff;
+  height:300px;
+}
+
+/* Index aloe ≠ aloe background */
+.template-index #shopify-section-1511032752763 .hero__overlay::before {
+  background-image:url( //cdn.shopify.com/s/files/1/2089/4883/t/5/assets/ba-icon-aloe-light.svg?5544002055934962046 );
+  background-repeat:round;
+  background-size:4.5rem 4.5rem;
+  border:15px solid #000;
+  border-left-width:0;
+  border-right-width:0;
+}
+
+/* Index ba klaviyo form background */
+.template-index .index-section--ba-klaviyo-form .hero__overlay::before {
+  background-image:url( //cdn.shopify.com/s/files/1/2089/4883/t/5/assets/ba-icon-aloe-dark.svg?5544002055934962046 );
+  background-repeat:round;
+  background-size:4.5rem 4.5rem;
+  border:15px solid #d9c;
+  border-left-width:0;
+  border-right-width:0;
+}
+
+/* Index ba klaviyo form animated bar */
+.template-index .index-section--ba-klaviyo-form .hero__overlay-title.has-animated::before {
+  background-color:#fff;
+}
+
+@media only screen and (min-width: 750px) {
+
+/* INDEX PAGE */
+
+/* Index slideshow */
+.template-index .slideshow {
+  box-sizing:content-box;
+}
+
+/* Index slideshow background */
+.template-index .slideshow__overlay::before {
+  background-size:6.5rem 6.5rem;
+}
+
+/* Index slideshow heading */
+.template-index .slideshow .slideshow__heading {
+  font-size:calc(2rem + 2.35vw);
+}
+
+/* Index ba product gallery */
+.template-index .index-section--ba-product-gallery {
+  padding:0 5.5%;
+}
+
+/* Index ba product gallery image */
+.template-index .index-section--ba-product-gallery .image-bar__item {
+  height:344px;
+}
+
+/* Index ba product gallery text */
+.template-index .index-section--ba-product-gallery .image-bar__text {
+  opacity:0;
+  transition:opacity .5s;
+}
+
+/* Index ba product gallery text hover */
+.template-index .index-section--ba-product-gallery .image-bar__flex:hover .image-bar__text {
+  opacity:1;
+}
+
+/* Index aloe ≠ aloe background */
+/* Index ba klaviyo form background */
+.template-index #shopify-section-1511032752763 .hero__overlay::before,
+.template-index .index-section--ba-klaviyo-form .hero__overlay::before {
+  border-left-width:15px;
+  border-right-width:15px;
+}
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+/* INDEX PAGE */
+
+/* Index content wrapper */
+.template-index .content-for-index {
+  max-width:1350px;
+  margin:0 auto;
+  padding:0 2%;
+}
+
+/* Index aloe ≠ aloe */
+.template-index #shopify-section-1511032752763 {
+  display:inline-block;
+  width:49%;
+  vertical-align:top;
+  margin:4vh 1% 4vh 0;
+}
+
+/* Index ba klaviyo form */
+.template-index .index-section--ba-klaviyo-form {
+  display:inline-block;
+  width:49%;
+  vertical-align:top;
+  margin:4vh 0 4vh 1%;
+}
+
+/* Index aloe ≠ aloe */
+/* Index ba klaviyo form */
+/* Index aloe ≠ aloe background */
+/* Index ba klaviyo form background */
+.template-index #shopify-section-1511032752763,
+.template-index .index-section--ba-klaviyo-form,
+.template-index #shopify-section-1511032752763 .hero__overlay::before,
+.template-index .index-section--ba-klaviyo-form .hero__overlay::before {
+  min-height:553px;
+}
+
+}
