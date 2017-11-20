@@ -129,6 +129,7 @@ html {
   color:#fff;
   text-align:center;
   font-weight:600;
+  opacity:1;
 }
 
 /* Index ba klaviyo form input placeholder */
@@ -145,6 +146,17 @@ html {
   color:rgba(255,255,255,.3)!important;
 }
 
+/* Index ba klaviyo form input placeholder Edge fix*/
+.template-index .index-section--ba-klaviyo-form form input::-webkit-input-placeholder {
+  color:#fff!important;
+  opacity:1;
+}
+
+/* Index ba klaviyo form input placeholder focus Edge fix */
+.template-index .index-section--ba-klaviyo-form form input:focus::-webkit-input-placeholder {
+  color:rgba(255,255,255,.3)!important;
+}
+
 /* Index ba klaviyo form button */
 .template-index .index-section--ba-klaviyo-form form .btn {
   margin-top:25px;
@@ -156,7 +168,9 @@ html {
   font-weight:600;
 }
 
-/* Index ba klaviyo form error messages */
+/* Index ba klaviyo form success message */
+/* Index ba klaviyo form error message */
+.template-index .index-section--ba-klaviyo-form form .success_message,
 .template-index .index-section--ba-klaviyo-form form .error_message {
   margin-top:25px;
 }
