@@ -1,9 +1,9 @@
 /* GENERAL */
 
 /* menu scrollbar fix */
-html {
+/*html {
   overflow-y:scroll;
-}
+}*/
 
 /* buttons */
 .btn:not(.btn--clear) {
@@ -24,10 +24,33 @@ html {
   display:none;
 }
 
+/* view cart background fix */
+.btn:not(.btn--clear).btn--to-secondary-transitioned {
+  background:#fff;
+}
+
+/* Index header announcement bar */
+#shopify-section-header .announcement-bar__message {
+  color:#d9c;
+}
+
+/* Index header announcement bar close button */
+#shopify-section-header .announcement-bar__close {
+  background:#95cef2;
+  color:#000;
+  border-radius:50%;
+  border:1px solid #000;
+}
+
 /* header logo */
-#shopify-section-header a.site-header__logo {
+#shopify-section-header .site-header__logo {
   color:#d9c;
   font-weight:400;
+}
+
+/* header cart bubble */
+#shopify-section-header .site-header__cart-bubble {
+  border:1px solid #000;
 }
 
 /* ba get started text */
@@ -40,13 +63,17 @@ html {
 
 /* INDEX PAGE */
 
+/* Index header announcement bar */
 /* Index header logo */
-.template-index #shopify-section-header a.site-header__logo {
+.template-index #shopify-section-header .announcement-bar__message,
+.template-index #shopify-section-header .site-header__logo {
   color:#fff;
 }
 
+/* Index header sticky announcement bar */
 /* Index header sticky logo */
-.template-index #shopify-section-header .site-header--fixed a.site-header__logo {
+.template-index #shopify-section-header .site-header--fixed .announcement-bar__message,
+.template-index #shopify-section-header .site-header--fixed .site-header__logo {
   color:#d9c;
 }
 
