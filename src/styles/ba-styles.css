@@ -1,9 +1,9 @@
 /* GENERAL */
 
 /* menu scrollbar fix */
-/*html {
+html {
   overflow-y:scroll;
-}*/
+}
 
 /* buttons */
 .btn:not(.btn--clear) {
@@ -24,17 +24,17 @@
   display:none;
 }
 
-/* view cart background fix */
+/* add to cart button background fix */
 .btn:not(.btn--clear).btn--to-secondary-transitioned {
   background:#fff;
 }
 
-/* Index header announcement bar */
+/* header announcement bar */
 #shopify-section-header .announcement-bar__message {
   color:#d9c;
 }
 
-/* Index header announcement bar close button */
+/* header announcement bar close button */
 #shopify-section-header .announcement-bar__close {
   background:#95cef2;
   color:#000;
@@ -72,14 +72,20 @@
 
 /* Index header sticky announcement bar */
 /* Index header sticky logo */
+/* Index header nav open announcement bar */
+/* Index header nav open logo */
 .template-index #shopify-section-header .site-header--fixed .announcement-bar__message,
-.template-index #shopify-section-header .site-header--fixed .site-header__logo {
+.template-index #shopify-section-header .site-header--fixed .site-header__logo,
+.template-index.navigation-open #shopify-section-header .announcement-bar__message,
+.template-index.navigation-open #shopify-section-header .site-header__logo {
   color:#d9c;
 }
 
 /* Index slideshow */
 .template-index .slideshow {
   border-bottom:35px solid #d9c;
+  transition-delay:999999s; /* Samsung Internet jump fix */
+  /*box-sizing:content-box;*/ /* Improves aesthetics in Samsung Internet & Firefox, lessens in Chrome */
 }
 
 /* Index slideshow background */
