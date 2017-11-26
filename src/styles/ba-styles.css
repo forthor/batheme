@@ -83,9 +83,9 @@ html {
 
 /* Index slideshow */
 .template-index .slideshow {
+  height:100vh;
   border-bottom:35px solid #d9c;
-  transition-delay:999999s; /* Samsung Internet jump fix */
-  /*box-sizing:content-box;*/ /* Improves aesthetics in Samsung Internet & Firefox, lessens in Chrome */
+  transition:height 0s 999999s; /* Samsung Internet jump fix */
 }
 
 /* Index slideshow background */
@@ -211,11 +211,6 @@ html {
 @media only screen and (min-width: 750px) {
 
 /* INDEX PAGE */
-
-/* Index slideshow */
-.template-index .slideshow {
-  box-sizing:content-box;
-}
 
 /* Index slideshow background */
 .template-index .slideshow__overlay::before {
