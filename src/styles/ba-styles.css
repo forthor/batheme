@@ -173,17 +173,16 @@ html {
 
 /* Index aloe ≠ aloe */
 /* Index ba klaviyo form */
-/* Index aloe ≠ aloe hero */
-/* Index ba klaviyo form hero */
 /* Index aloe ≠ aloe background */
 /* Index ba klaviyo form background */
-.template-index #shopify-section-1511032752763,
-.template-index .index-section--ba-klaviyo-form,
 .template-index #shopify-section-1511032752763 .hero__overlay,
 .template-index .index-section--ba-klaviyo-form .hero__overlay,
 .template-index #shopify-section-1511032752763 .hero__overlay::before,
 .template-index .index-section--ba-klaviyo-form .hero__overlay::before {
   min-height:553px;
+  display:flex; /* fix vertical alignment in Firefox */
+  flex-direction:column; /* fix vertical alignment in Firefox */
+  justify-content:center; /* fix vertical alignment in Firefox */
 }
 
 /* Index aloe ≠ aloe background */
