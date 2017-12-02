@@ -75,7 +75,7 @@ html {
 .template-index .slideshow__overlay::before {
   background-image:url( //cdn.shopify.com/s/files/1/2089/4883/t/5/assets/ba-icon-aloe-dark.svg?5544002055934962046 );
   background-repeat:round;
-  background-size:5rem 5rem;
+  background-size:4.5rem 4.5rem;
   border-bottom:35px solid #d9c;
 }
 
@@ -157,11 +157,24 @@ html {
   height:300px;
 }
 
+/* Index ba product gallery icon */
+.template-index .index-section--ba-product-gallery .image-bar__text .icon {
+  margin-bottom:15px;
+}
+
+/* Index ba product gallery caption */
+.template-index .index-section--ba-product-gallery .image-bar__text .image-bar__caption {
+  font-size:2rem;
+  max-width:70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 /* Index aloe ≠ aloe background */
 .template-index #shopify-section-1511032752763 .hero__overlay::before {
   background-image:url( //cdn.shopify.com/s/files/1/2089/4883/t/5/assets/ba-icon-aloe-light.svg?5544002055934962046 );
   background-repeat:round;
-  background-size:5rem 5rem;
+  background-size:4.5rem 4.5rem;
   border:15px solid #000;
   border-left-width:0;
   border-right-width:0;
@@ -171,7 +184,7 @@ html {
 .template-index .index-section--ba-klaviyo-form .hero__overlay::before {
   background-image:url( //cdn.shopify.com/s/files/1/2089/4883/t/5/assets/ba-icon-aloe-dark.svg?5544002055934962046 );
   background-repeat:round;
-  background-size:5rem 5rem;
+  background-size:4.5rem 4.5rem;
   border:15px solid #d9c;
   border-left-width:0;
   border-right-width:0;
@@ -255,11 +268,6 @@ html {
   background-size:6.5rem 6.5rem;
 }
 
-/* Index slideshow heading */
-.template-index .slideshow .slideshow__heading {
-  font-size:calc(2rem + 2.35vw);
-}
-
 /* Index ba product gallery */
 .template-index .index-section--ba-product-gallery {
   padding:0 5.5%;
@@ -268,17 +276,6 @@ html {
 /* Index ba product gallery image */
 .template-index .index-section--ba-product-gallery .image-bar__item {
   height:344px;
-}
-
-/* Index ba product gallery text */
-.template-index .index-section--ba-product-gallery .image-bar__text {
-  opacity:0;
-  transition:opacity .5s;
-}
-
-/* Index ba product gallery text hover */
-.template-index .index-section--ba-product-gallery .image-bar__flex:hover .image-bar__text {
-  opacity:1;
 }
 
 /* Index aloe ≠ aloe background */
