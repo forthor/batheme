@@ -145,11 +145,6 @@ html {
   color:#999;
 }
 
-/* Index all products button */
-.template-index #shopify-section-1511032637913 .btn {
-  margin-top:0;
-}
-
 /* Index ba product gallery image */
 .template-index .index-section--ba-product-gallery .image-bar__item {
   background-size:auto 100%;
@@ -170,12 +165,33 @@ html {
   margin-right:auto;
 }
 
+/* Index all products button */
+.template-index #shopify-section-1511032637913 .btn {
+  margin-top:0;
+  margin-bottom:4vh;
+}
+
+/* Index aloe ≠ aloe */
+/* Index ba klaviyo form */
+/* Index aloe ≠ aloe hero */
+/* Index ba klaviyo form hero */
+/* Index aloe ≠ aloe background */
+/* Index ba klaviyo form background */
+.template-index #shopify-section-1511032752763,
+.template-index .index-section--ba-klaviyo-form,
+.template-index #shopify-section-1511032752763 .hero__overlay,
+.template-index .index-section--ba-klaviyo-form .hero__overlay,
+.template-index #shopify-section-1511032752763 .hero__overlay::before,
+.template-index .index-section--ba-klaviyo-form .hero__overlay::before {
+  min-height:553px;
+}
+
 /* Index aloe ≠ aloe background */
 .template-index #shopify-section-1511032752763 .hero__overlay::before {
   background-image:url( //cdn.shopify.com/s/files/1/2089/4883/t/5/assets/ba-icon-aloe-light.svg?5544002055934962046 );
   background-repeat:round;
   background-size:4.5rem 4.5rem;
-  border:15px solid #000;
+  border:35px solid #000;
   border-left-width:0;
   border-right-width:0;
 }
@@ -185,7 +201,7 @@ html {
   background-image:url( //cdn.shopify.com/s/files/1/2089/4883/t/5/assets/ba-icon-aloe-dark.svg?5544002055934962046 );
   background-repeat:round;
   background-size:4.5rem 4.5rem;
-  border:15px solid #d9c;
+  border:35px solid #d9c;
   border-left-width:0;
   border-right-width:0;
 }
@@ -282,8 +298,8 @@ html {
 /* Index ba klaviyo form background */
 .template-index #shopify-section-1511032752763 .hero__overlay::before,
 .template-index .index-section--ba-klaviyo-form .hero__overlay::before {
-  border-left-width:15px;
-  border-right-width:15px;
+  border-left-width:35px;
+  border-right-width:35px;
 }
 
 }
@@ -304,7 +320,7 @@ html {
   display:inline-block;
   width:49%;
   vertical-align:top;
-  margin:4vh 1% 4vh 0;
+  margin:0 1% 4vh 0;
 }
 
 /* Index ba klaviyo form */
@@ -312,18 +328,7 @@ html {
   display:inline-block;
   width:49%;
   vertical-align:top;
-  margin:4vh 0 4vh 1%;
-}
-
-/* Index aloe ≠ aloe */
-/* Index ba klaviyo form */
-/* Index aloe ≠ aloe background */
-/* Index ba klaviyo form background */
-.template-index #shopify-section-1511032752763,
-.template-index .index-section--ba-klaviyo-form,
-.template-index #shopify-section-1511032752763 .hero__overlay::before,
-.template-index .index-section--ba-klaviyo-form .hero__overlay::before {
-  min-height:553px;
+  margin:0 0 4vh 1%;
 }
 
 }
