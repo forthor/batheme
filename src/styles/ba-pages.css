@@ -1,0 +1,83 @@
+/* GENERAL PAGE */
+
+/* Page ba klaviyo form form */
+.template-page .index-section--ba-klaviyo-form form {
+  margin:15px auto 0;
+  max-width:500px;
+}
+
+/* Page ba klaviyo form input */
+.template-page .index-section--ba-klaviyo-form form input {
+  margin-bottom:0;
+  padding-left:0;
+  padding-right:0;
+  border:none;
+  outline:none;
+  background:transparent;
+  border-bottom:3px solid #fff;
+  color:#fff;
+  text-align:center;
+  font-weight:600;
+  opacity:1;
+}
+
+/* Page ba klaviyo form input placeholder */
+.template-page .index-section--ba-klaviyo-form form input::placeholder {
+  color:#fff!important;
+  opacity:1!important;
+  font-weight:600;
+  text-align:center;
+  transition:color .2s;
+}
+
+/* Page ba klaviyo form input placeholder focus */
+.template-page .index-section--ba-klaviyo-form form input:focus::placeholder {
+  color:rgba(255,255,255,.3)!important;
+}
+
+/* Page ba klaviyo form input placeholder Edge fix*/
+.template-page .index-section--ba-klaviyo-form form input::-webkit-input-placeholder {
+  color:#fff!important;
+  opacity:1;
+}
+
+/* Page ba klaviyo form input placeholder focus Edge fix */
+.template-page .index-section--ba-klaviyo-form form input:focus::-webkit-input-placeholder {
+  color:rgba(255,255,255,.3)!important;
+}
+
+/* Page ba klaviyo form button */
+.template-page .index-section--ba-klaviyo-form form .btn {
+  margin-top:25px;
+}
+
+/* Page ba klaviyo form messages */
+.template-page .index-section--ba-klaviyo-form form .klaviyo_messages {
+  color:#fff;
+  font-weight:600;
+}
+
+/* Page ba klaviyo form success message */
+/* Page ba klaviyo form error message */
+.template-page .index-section--ba-klaviyo-form form .success_message,
+.template-page .index-section--ba-klaviyo-form form .error_message {
+  margin-top:25px;
+}
+
+/* GET STARTED PAGE */
+
+#get-started #shopify-section-ba-get-started {
+  display:none;
+}
+
+@media only screen and (min-width: 750px) {
+
+/* GET STARTED PAGE */
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+/* GET STARTED PAGE */
+
+}
