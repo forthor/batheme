@@ -154,7 +154,10 @@ html {
 
 /* Index ba product gallery icon */
 .template-index .index-section--ba-product-gallery .image-bar__text .icon {
-  margin-bottom:15px;
+  margin-bottom:1px;
+  width:54px;
+  height:54px;
+  border:none;
 }
 
 /* Index ba product gallery caption */
